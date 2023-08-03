@@ -19,7 +19,7 @@ function Homepage() {
             nostrum qui dicta consectetur quos reprehenderit quis, tenetur vel
             pariatur vitae.
           </p>
-          <button className="bg-black  text-white mt-2 lg:mt-0">
+          <button className="bg-black w-40 h-8 rounded-md text-white mt-2 lg:mt-0">
             Book now
           </button>
         </div>

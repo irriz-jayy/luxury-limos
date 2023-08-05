@@ -1,19 +1,20 @@
 import React from "react";
-import hero from "../assets/hero.png";
+// import hero from "../assets/hero.png";
+import bg from "../assets/heroimage.png";
 
 function Homepage() {
   return (
     <>
-      <div className="border relative min-h-[70vh] m-4">
+      {/* Hero section */}
+      <div className="relative min-h-[50vh] m-4">
         <img
-          src={hero}
-          className="z-0 rounded-md h-full w-full hidden lg:block lg:h-full lg:w-full"
+          src={bg}
+          className="z-0 rounded-md h-full w-full hidden sm:block md:block lg:block"
           alt=""
         />
-        <div className="absolute top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full flex flex-col items-center justify-center p-4  ">
-          {" "}
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full flex flex-col items-center justify-top p-4  ">
           <p className="text-4xl font-bold">Luxury limo for hire</p>
-          <p className="w-auto ">
+          <p className="w-auto sm:bg-gray-800 sm:bg-opacity-30 sm:text-white md:text-white lg:text-white">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe,
             ipsum earum illo cum sequi assumenda nihil at, aliquam temporibus
             nostrum qui dicta consectetur quos reprehenderit quis, tenetur vel
@@ -23,9 +24,12 @@ function Homepage() {
             Book now
           </button>
         </div>
-        <div className="absolute top-20 lg:left-4 w-full h-full flex flex-col items-center mt-20 sm:mt-8 md:mt-8 lg:mt-0 lg:items-end justify-center p-8">
-          <form className="bg-white bg-opacity-30 border gap-2 p-4 min-h-96 flex flex-col justify-center rounded-md">
-            <h2 className="text-center font-bold">Book Now</h2>
+      </div>
+      {/* Form section */}
+      <div className="w-full flex items-center justify-center">
+        <div className="w-3/4 h-full ">
+          <h2 className="text-center font-bold text-lg">Book Now</h2>
+          <form className="w-full min-h-96 p-4 bg-gray-200 border rounded-md gap-2 grid md:grid-cols-2 lg:grid-cols-2">
             <input
               type="text"
               placeholder="Pick up address"
@@ -38,7 +42,7 @@ function Homepage() {
             />
             <input type="date" className="h-12 p-2 bg-gray-100 rounded-md" />
             <input type="time" className="h-12 p-2 bg-gray-100 rounded-md" />
-            <button className="bg-black text-white rounded-md">
+            <button className="bg-black text-white h-12 rounded-md hover:bg-gray-500 md:col-span-2 lg:col-span-2">
               Reserve now
             </button>
           </form>

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="h-16 border border-2 border-red-500 flex items-center justify-between px-4">
+      <div className="h-16 flex items-center justify-between px-4">
         <div>
           <p>Limo</p>
         </div>

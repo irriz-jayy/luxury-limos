@@ -13,8 +13,8 @@ function Homepage() {
           alt=""
         />
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full flex flex-col items-center justify-top p-4">
-          <p className="text-4xl font-bold">Luxury limo for hire</p>
-          <p className="w-auto">
+          <p className="text-4xl font-bold text-center">Luxury limo for hire</p>
+          <p className="text-center">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe,
             ipsum earum illo cum sequi assumenda nihil at, aliquam temporibus
             nostrum qui dicta consectetur quos reprehenderit quis, tenetur vel

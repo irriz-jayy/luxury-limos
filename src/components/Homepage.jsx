@@ -1,18 +1,13 @@
 import React from "react";
 // import hero from "../assets/hero.png";
-import bg from "../assets/heroimage.png";
+import bg from "../assets/merc.png";
 
 function Homepage() {
   return (
     <>
       {/* Hero section */}
-      <div className="relative min-h-[50vh] m-4">
-        <img
-          src={bg}
-          className="z-0 rounded-md h-full w-full hidden md:block lg:block"
-          alt=""
-        />
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full flex flex-col items-center justify-top p-4">
+      <div className="border flex min-h-[50vh] m-4 items-center justify-center">
+        <div className="border w-full h-full flex flex-col items-center p-4 lg:w-1/4">
           <p className="text-4xl font-bold text-center">Luxury limo for hire</p>
           <p className="text-center">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe,
@@ -24,7 +19,13 @@ function Homepage() {
             Book now
           </button>
         </div>
-        <div className="absolute top-0 left-0 w-full h-full  bg-black opacity-30 rounded-md hidden md:block lg:block"></div>
+        <img
+          src={bg}
+          className="border rounded-md h-full w-2/3 lg:w-3/4 hidden md:block lg:block"
+          alt=""
+        />
+
+        {/* <div className="absolute top-0 left-0 w-full h-full  bg-black opacity-20 rounded-md hidden md:block lg:block"></div> */}
       </div>
       {/* Form section */}
       <div className="w-full flex items-center justify-center">

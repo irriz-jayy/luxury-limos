@@ -13,7 +13,7 @@ function Offer() {
             renting a limounsine
           </p>
         </div>
-        <button className="bg-black w-40 h-12 px-2 font-heading font-bold text-white hover:bg-gray-500 hover:text-black ">
+        <button className="bg-black w-40 h-12 px-2 font-heading font-bold text-white hover:bg-gray-500 hover:text-black">
           Book now
         </button>
       </div>

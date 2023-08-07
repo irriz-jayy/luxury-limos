@@ -27,7 +27,7 @@ function Homepage() {
         </div>
         <img
           src={bg}
-          className="rounded-md h-full w-2/3 lg:w-3/4 hidden md:block lg:block"
+          className="rounded-md w-2/3 lg:w-3/4 hidden md:block lg:block"
           alt=""
         />
       </div>

@@ -6,9 +6,9 @@ function Navbar() {
     <>
       <div className="h-16 flex items-center justify-between px-4">
         <div>
-          <p>Limo</p>
+          <p className="font-heading text-2xl">Limo</p>
         </div>
-        <div className="flex items-center space-x-4 m-auto">
+        <div className="flex items-center space-x-4 m-auto font-heading">
           <NavLink
             to="/"
             exact

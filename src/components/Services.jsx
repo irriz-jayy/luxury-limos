@@ -26,10 +26,10 @@ const services = [
 function Services() {
   return (
     <>
-      <div className="m-2 min-h-[50vh] border border-red-800">
+      <div className="m-2 min-h-[50vh]">
         {/* header section */}
-        <div className="border max-h-32 grid grid-rows-2 md:grid-cols-2 lg:grid-cols-2 text-center">
-          <p className="pt-4 text-2xl">SERVICES</p>
+        <div className="max-h-32 grid grid-rows-2 font-heading md:grid-cols-2 lg:grid-cols-2 text-center">
+          <p className="pt-4 text-2xl">Services</p>
           <p className="pt-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
             voluptatibus distinctio
@@ -47,9 +47,9 @@ function Services() {
                 alt=""
                 className="h-1/2 w-full sm:w-3/4 sm:h-52 md:w-1/2 md:h-full lg:w-1/2 lg:h-52 p-2 rounded-md"
               />
-              <p className="w-full sm:w-1/2 md:w-1/2 lg:w-1/2 p-2 text-center">
+              <div className="flex justify-center items-center text-lg font-paragraph w-full sm:w-1/2 md:w-1/2 lg:w-1/2 p-2 text-center">
                 {service.text}
-              </p>
+              </div>
             </div>
           ))}
         </div>

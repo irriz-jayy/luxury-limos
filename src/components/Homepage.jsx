@@ -9,12 +9,12 @@ function Homepage() {
       <div className="relative min-h-[50vh] m-4">
         <img
           src={bg}
-          className="z-0 rounded-md h-full w-full hidden sm:block md:block lg:block"
+          className="z-0 rounded-md h-full w-full hidden md:block lg:block"
           alt=""
         />
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full flex flex-col items-center justify-top p-4  ">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full flex flex-col items-center justify-top p-4">
           <p className="text-4xl font-bold">Luxury limo for hire</p>
-          <p className="w-auto sm:bg-gray-800 sm:bg-opacity-30 sm:text-white md:text-white lg:text-white">
+          <p className="w-auto">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe,
             ipsum earum illo cum sequi assumenda nihil at, aliquam temporibus
             nostrum qui dicta consectetur quos reprehenderit quis, tenetur vel
@@ -24,6 +24,7 @@ function Homepage() {
             Book now
           </button>
         </div>
+        <div className="absolute top-0 left-0 w-full h-full  bg-black opacity-30 rounded-md hidden md:block lg:block"></div>
       </div>
       {/* Form section */}
       <div className="w-full flex items-center justify-center">

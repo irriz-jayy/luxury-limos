@@ -32,7 +32,7 @@ function Vehicles() {
 
   return (
     <>
-      <div className="m-2 min-h-[50vh] border border-red-800">
+      <div className="m-2 min-h-[50vh]">
         {/* header section */}
         <div className="max-h-36 grid grid-rows-2 font-heading md:grid-cols-2 lg:grid-cols-2 text-center">
           <p className="pt-4 text-2xl">Our fleet</p>

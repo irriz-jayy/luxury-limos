@@ -7,6 +7,7 @@ import Choose from "./Choose";
 import Offer from "./Offer";
 import Vehicles from "./Vehicles";
 import Feature from "./Feature";
+import Testimonial from "../Testimonial";
 
 function Homepage() {
   return (
@@ -62,6 +63,7 @@ function Homepage() {
         </div>
       </div>
       <Services />
+      <Testimonial />
       <Vehicles />
       <Choose />
       <Offer />

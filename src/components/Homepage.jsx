@@ -2,6 +2,11 @@ import React from "react";
 // import hero from "../assets/hero.png";
 import bg from "../assets/merc.png";
 import arrow from "../assets/logos/arrow.png";
+import Services from "./Services";
+import Choose from "./Choose";
+import Offer from "./Offer";
+import Vehicles from "./Vehicles";
+import Feature from "./Feature";
 
 function Homepage() {
   return (
@@ -56,6 +61,11 @@ function Homepage() {
           </form>
         </div>
       </div>
+      <Services />
+      <Vehicles />
+      <Choose />
+      <Offer />
+      <Feature />
     </>
   );
 }

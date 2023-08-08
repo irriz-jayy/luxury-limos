@@ -9,7 +9,7 @@ function Offer() {
             Only today at $7/day
           </p>
           <p className="font-paragraph text-lg">
-            take advantage of our hot offers saving a significant amount when
+            Take advantage of our hot offers saving a significant amount when
             renting a limounsine
           </p>
         </div>
